@@ -1,0 +1,64 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:lightgoldenrodyellow
+}
+
+p {
+    padding-top:10px;
+    padding-bottom:15px;
+    padding-left: 15px;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: rgb(233, 171, 252);
+    color: black;
+}
+
+.saludo{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: pink;
+    color:mediumvioletred;
+} 
+#introd{ 
+    text-align:center;
+    background-color: rgba(173, 250, 179, 0.562);
+    color: black;
+} 
+
+
+h2{
+ padding-bottom: 1%;
+    font-size: 150%;
+}
+
+h1{
+    padding-top:1%;
+}
+
+a:link {
+    color: fuchsia ;
+}
+a:visited {
+    color:teal;
+}
+
+.imagenes{
+    display:flex;
+    justify-content: center;
+}
+
+.imagen{
+    padding:15px;
+    width:350px ;
+}
+
+h3{
+    background-color: lightsalmon;
+    text-align: center;
+}
+
+#ballet{
+    background-color: khaki;
+}
