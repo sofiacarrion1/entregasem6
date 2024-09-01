@@ -4,9 +4,9 @@ body {
 }
 
 p {
-    padding-top:10px;
-    padding-bottom:15px;
-    padding-left: 15px;
+    padding-top:1 em;
+    padding-bottom:1 em;
+    padding-left: 1em;
     margin-left: 15%;
     margin-right:15%;
     background-color: rgb(233, 171, 252);
@@ -14,6 +14,7 @@ p {
 }
 
 .saludo{
+    justify-content: center ;
     text-align: center;
     margin-top: 3%;
     margin-left: 3%;
@@ -27,14 +28,15 @@ p {
     color: black;
 } 
 
-
-h2{
- padding-bottom: 1%;
-    font-size: 150%;
+h1{
+    justify-content: center ;
+    padding-top:1%;
 }
 
-h1{
-    padding-top:1%;
+h2{
+    justify-content: center ;
+ padding-bottom: 1%;
+    font-size: 150%;
 }
 
 a:link {
@@ -54,11 +56,31 @@ a:visited {
     width:350px ;
 }
 
-h3{
-    background-color: lightsalmon;
+.introimg{
     text-align: center;
+    justify-content: center ; 
+    background-color: lightsalmon;
 }
 
 #ballet{
     background-color: khaki;
+}
+
+.box  {
+    display: flex ; 
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.introduccion {
+    width: 100% ;
+    justify-content: center ;
+
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
 }
